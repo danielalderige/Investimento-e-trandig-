@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ebook Investimentos & Trading</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Seção Hero -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+      Aprenda a Investir e Fazer Trading com Segurança
+    </h1>
+    <p class="text-lg md:text-xl max-w-2xl mb-8">
+      Baixe gratuitamente nosso <span class="font-semibold">ebook exclusivo</span> e descubra as melhores estratégias para investir no mercado financeiro.
+    </p>
+    
+    <!-- Bloco do formulário ou botão direto -->
+    <div class="bg-white p-6 rounded-2xl shadow-md max-w-md w-full">
+      <h2 class="text-2xl font-semibold mb-4">Baixe seu Ebook</h2>
+      
+      <!-- OPÇÃO 1: Coletar email antes do download -->
+      <form class="flex flex-col space-y-4">
+        <input 
+          type="text" 
+          placeholder="Seu nome" 
+          class="border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <input 
+          type="email" 
+          placeholder="Seu melhor e-mail" 
+          class="border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <button 
+          type="submit" 
+          class="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition"
+        >
+          Quero meu Ebook
+        </button>
+      </form>
+
+      <!-- OPÇÃO 2: Link direto para o ebook -->
+      <a 
+        href="https://drive.google.com/file/d/1ciISypAo54cTazLlhm_bkCrsGjvclwX7/view?usp=drivesdk 
+        target="_blank" 
+        class="block mt-4 bg-green-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-700 transition"
+      >
+        📥 Baixar Agora
+      </a>
+    </div>
+  </section>
+
+  <!-- Seção Benefícios -->
+  <section class="py-16 bg-blue-50 text-center px-6">
+    <h2 class="text-3xl font-bold mb-8">O que você vai aprender:</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Estratégias de Trading</h3>
+        <p>Descubra como operar no mercado de forma inteligente e sem emoções.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Gestão de Risco</h3>
+        <p>Aprenda a proteger seu capital e aumentar suas chances de sucesso.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Investimentos de Longo Prazo</h3>
+        <p>Monte uma carteira sólida para garantir liberdade financeira.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="py-6 text-center text-gray-600">
+    © 2025 - Seu Nome | Todos os direitos reservados
+  </footer>
+</body>
+</html>
